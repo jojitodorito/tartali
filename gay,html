@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <img name="dancing" src=""><title>Zhongli</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <h1 id="title">General Morax's Husband Recruitment Form</h1>
+  </head>
+  <p id="description">General Morax is in dire need of company. <i>You</i> can end this struggle <b>today</b> simply by applying. <i>Restrictions apply.*</i></p>
+</heading>
+<img name="blush" src="https://pbs.twimg.com/media/Emja2WgUYAQ53Ab?format=jpg&name=small">
+<form id="survey-form">
+  <fieldset>
+    <label id="name-label">Name<input id="name" placeholder="Childe Ajax Tartaglia 11th" required></label>
+    <label id="email-label">Email<input placeholder="tortellini@hotmail.com" type="email" name="email" required id="email" ></label>
+    <label id="number-label">Age<input placeholder="10+9=21" id="number" required type="number" min="21" max="8000"></label>
+  </fieldset>
+  <fieldset>
+    <label>Are you a top or a bottom (IMPORTANT!!)
+      <select id="dropdown">
+        <option value="">Select one</option>
+        <option value="1">Top</option>
+        <option value="2">Bottom</option>
+        <option value="3">Both</option>
+        <option value="4">Asexual</option>
+    </label>
+  <label><input type="radio" name="pay-for-everything?" class="inline" value="yes">I will pay for everything you ask for Zhongli xiangsheng uwu!1</label>
+  <label><input type="radio" name="pay-for-everything?" class="inline" value="nope">go suck someone else's dick</label>
+  </fieldset>
+  <fieldset>
+    <label>What can you bring to the table (check all that apply):<label>
+      <label>
+      <input type="checkbox" class="inline" name="hard-skills" value="cook"/> cook gourmet meals (with LAND dwelling creatures, thank you very much.)</label>
+      <label><input type="checkbox" class="inline" name="hard-skills" value="clean"/> thoroughly clean our 10,000 square feet mansion in Snezhnaya</label>
+      <label><input type="checkbox" class="inline" name="hard-skills" value="babies"/> take care of our three dragon babies</label>
+      <label><input type="checkbox" class="inline" name="hard-skills" value="breadwinner" /> be the breadwinner</label>
+      <label><input type="checkbox" class="inline" name="hard-skills" value="fat=schlong" /> fat schlong</label>
+  </fieldset>
+  <fieldset>
+  <label>Upload an image of yourself <input type="file" name="file" /></label>
+  </fieldset>
+  <fieldset>
+  <label>Tell me about yourself
+    <textarea name="bio" rows="7" cols="30" placeholder="I'm No. 11 of the Fatui Harbingers, codename Childe, but I also go by Tartaglia. And you... Hmm, you too like to cause quite the stir, don't you? Something tells me we're going to get along splendidly." ></textarea>
+    </label>
+  
+    </fieldset>
+    *Applicant must have ginger hair, blue eyes, radiant smile, and a big di- ahem. Heart. 
+    <input id="submit" type="submit" value="submit" />
+</form>
+</html>
