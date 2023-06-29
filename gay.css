@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 2px;
+  background-color: #FEDBD4;
+  font-family: times;
+}
+h1,p {
+  text-align: center;
+  margin: 20px
+}
+
+h1 {
+    -webkit-text-stroke: 2px rgb(0,0,0,80%); /* width and color */
+    font-family: "Comic Sans MS", cursive, sans-serif; color: white;
+}
+input {
+  display: block;
+}
+
+img[name="blush"] {
+  width: 50%;
+  padding: auto;
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
